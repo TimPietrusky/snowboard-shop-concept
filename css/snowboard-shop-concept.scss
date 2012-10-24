@@ -24,9 +24,9 @@ body {
 footer {
   position:absolute;
   bottom:-15em;
-  padding:1em;
+  padding:1em 2em 1em 1em;
   font:bold 2em/1em sans-serif;
-  text-align:center;
+  text-align:left;
   
   color: rgba(0, 0, 0, .85);
   text-shadow: 
@@ -65,7 +65,7 @@ section {
   top:2.5em;
   margin: 0 0 0 -27.5%;
   width: 90%;
-  height:500px;
+  height:50em;
 }
 
 section[role="row-2"] {
