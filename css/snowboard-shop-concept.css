@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 130%; }
+
+body {
+  background-image: url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png);
+  background: linear-gradient(top, rgba(255, 255, 255, 0.4) 5%, rgba(255, 255, 255, 0) 15%, rgba(255, 255, 255, 0) 85%, rgba(0, 0, 0, 0.4) 95%), url(http://subtlepatterns.subtlepatterns.netdna-cdn.com/patterns/retina_wood.png);
+  background-size: 100% 250%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  overflow-y: visible;
+  font: 1em "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; }
+
+footer {
+  position: absolute;
+  bottom: -15em;
+  padding: 1em;
+  font: bold 2em/1em sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  text-shadow: 0 0 1em rgba(200, 200, 200, 0.3), 0 0 1.25em rgba(200, 200, 200, 0.2), 0 0.015em 0.025em white, 0 0.015em 0.025em white;
+  width: 100%;
+  margin: 0;
+  box-shadow: inset 0 0 1em rgba(0, 0, 0, 0.6), inset 0 0 2em rgba(255, 255, 255, 0.6);
+  transition: all .4s ease-in-out; }
+
+a {
+  color: #c00;
+  text-decoration: none;
+  padding: 0 0 .5em 0;
+  border-bottom: 2px solid transparent;
+  transition: border .3s ease-in-out; }
+
+a:hover {
+  border-bottom: 4px solid #c00; }
+
+section {
+  position: absolute;
+  left: 50%;
+  top: 2.5em;
+  margin: 0 0 0 -27.5%;
+  width: 90%;
+  height: 500px; }
+
+section[role="row-2"] {
+  top: 25em; }
+
+.snowboard {
+  position: absolute;
+  z-index: 10;
+  box-shadow: 0 5px 22px rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  margin: 10px;
+  animation: asdf .75s 1 forwards;
+  cursor: pointer;
+  transition: box-shadow .25s ease-in; }
+
+.snowboard:nth-child(1) {
+  left: 0; }
+
+.snowboard:nth-child(2) {
+  left: 10%; }
+
+.snowboard:nth-child(3) {
+  left: 20%; }
+
+.snowboard:nth-child(4) {
+  left: 30%; }
+
+.snowboard:nth-child(5) {
+  left: 40%; }
+
+.snowboard:nth-child(6) {
+  left: 50%; }
+
+.snowboard, .snowboard:before, .snowboard:after {
+  border-radius: 60px;
+  height: 620px;
+  width: 120px; }
+
+.snowboard:before, .snowboard:after {
+  content: "";
+  position: absolute; }
+
+.snowboard:before {
+  background: #c2e0f4;
+  height: 622px;
+  width: 122px; }
+
+.snowboard:after {
+  background: linear-gradient(top, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.3) 10%, rgba(255, 255, 255, 0) 29%, rgba(255, 255, 255, 0) 69%, rgba(0, 0, 0, 0.29) 90%, rgba(0, 0, 0, 0.3) 91%, rgba(0, 0, 0, 0.1) 100%);
+  border: 1px solid rgba(0, 0, 0, 0.5); }
+
+/* set the default bg images */
+.snowboard:nth-child(1):before,
+.snowboard:nth-child(2):before,
+.snowboard:nth-child(3):before,
+.snowboard:nth-child(4):before,
+.snowboard:nth-child(5):before,
+.snowboard:nth-child(6):before {
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+section[role="row-1"] .snowboard:nth-child(1):before {
+  background: url("http://www.asymbolgallery.com/images/products/mp_004.jpg") center top; }
+section[role="row-1"] .snowboard:nth-child(2):before {
+  background: url("http://www.asymbolgallery.com/images/products/mp_003.jpg") center top; }
+section[role="row-1"] .snowboard:nth-child(3):before {
+  background: url("http://www.asymbolgallery.com/images/products/jl_001.jpg") center top; }
+section[role="row-1"] .snowboard:nth-child(4):before {
+  background: url("http://www.asymbolgallery.com/images/products/sos_mp.jpg") center top; }
+section[role="row-1"] .snowboard:nth-child(5):before {
+  background: url("http://www.asymbolgallery.com/images/products/nr_002.jpg") left top; }
+section[role="row-1"] .snowboard:nth-child(6):before {
+  background: url("http://www.asymbolgallery.com/images/products/ah_0001.jpg") right top; }
+
+section[role="row-2"] .snowboard:nth-child(1):before {
+  background: url("http://www.asymbolgallery.com/images/products/h74_001.jpg") center top; }
+section[role="row-2"] .snowboard:nth-child(2):before {
+  background: url("http://www.asymbolgallery.com/images/products/mp_006.jpg") center top; }
+section[role="row-2"] .snowboard:nth-child(3):before {
+  background: url("http://www.asymbolgallery.com/images/products/jl_002.jpg") center top; }
+section[role="row-2"] .snowboard:nth-child(4):before {
+  background: url("http://www.asymbolgallery.com/images/products/tm_001.jpg") left bottom; }
+section[role="row-2"] .snowboard:nth-child(5):before {
+  background: url("http://www.asymbolgallery.com/images/products/sos_hydro.jpg") center top; }
+section[role="row-2"] .snowboard:nth-child(6):before {
+  background: url("http://www.asymbolgallery.com/images/products/sos_corey_s.jpg") center top;
+  background-size: 257px 630px; }
+
+.snowboard:hover {
+  box-shadow: 0 0 0 2.5em rgba(0, 0, 0, 0.45), 0 5px 5em 1em rgba(0, 0, 0, 0.75); }
+
+h1 {
+  position: absolute;
+  z-index: -1;
+  left: .15em;
+  width: 100%;
+  top: .15em;
+  margin: 0;
+  font: bold 6em/1em sans-serif;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.85);
+  text-shadow: 0 0 1em rgba(200, 200, 200, 0.3), 0 0 1.25em rgba(200, 200, 200, 0.2), 0 0.015em 0.025em white, 0 0.015em 0.025em white; }
+
+.snowboard h2 {
+  position: absolute;
+  z-index: 1000000;
+  top: 0;
+  left: 0;
+  width: 15em;
+  font: bold 0 sans-serif;
+  transition: .55s ease-in;
+  color: #fff;
+  margin: 0;
+  transform-origin: 40% 50%; }
+
+.snowboard.focus h2 {
+  font: bold 2em/1.05em sans-serif;
+  transform: rotate(-90deg) translate(-7.25em, -0.65em);
+  background: rgba(255, 255, 255, 0.5);
+  padding: .5em;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  background: rgba(60, 60, 60, 0.75);
+  background-image: radial-gradient(center, ellipse cover, rgba(104, 104, 104, 0.6) 0%, rgba(23, 23, 23, 0.7) 100%);
+  box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.2), 0 0 8px 2px rgba(0, 0, 0, 0.3);
+  color: white;
+  text-align: left;
+  border-bottom-left-radius: 1em;
+  border-top-right-radius: 1em; }
+
+.focus {
+  animation: focus 1.05s 1 forwards; }
+
+.snowboard.normal {
+  animation: asdf .5s 1 forwards; }
+
+@keyframes focus {
+  0% {
+    transform: rotate(45deg) scale(0.75); }
+
+  80% {
+    transform: rotate(90deg);
+    box-shadow: 0 0 0 4em rgba(0, 0, 0, 0.5), 0 5px 1em 0.5em rgba(0, 0, 0, 0.7); }
+
+  100% {
+    position: absolute;
+    top: -120px;
+    z-index: 9999;
+    transform: rotate(90deg) scale(1.4);
+    box-shadow: 0 0 0 50em rgba(0, 0, 0, 0.75), 0 5px 22px rgba(0, 0, 0, 0.75); } }
+
+@keyframes asdf {
+  100% {
+    transform: rotate(45deg) scale(0.75); } }
+
+/* small screens */
+@media screen and (max-width: 60em) {
+  body {
+    font-size: .75em;
+    overflow-y: visible;
+    background-size: 100% 13em; }
+
+  footer {
+    bottom: -100em;
+    padding: 1em;
+    font: 2em sans-serif;
+    background: #fff; }
+
+  h1 {
+    font-size: 5em; }
+
+  section {
+    position: relative;
+    width: 100%;
+    left: 45%;
+    padding: 10em; }
+
+  section[role="row-2"] {
+    top: 70em; }
+
+  .snowboard {
+    transform: rotate(90deg);
+    animation: none;
+    margin: 0 auto;
+    pointer-events: none; }
+
+  .snowboard h2 {
+    font: bold 2em/1.05em sans-serif;
+    transform: rotate(-90deg) translate(-80%, -0.5em);
+    background: rgba(255, 255, 255, 0.5);
+    padding: .5em;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+    background: rgba(60, 60, 60, 0.75);
+    background-image: radial-gradient(center, ellipse cover, rgba(104, 104, 104, 0.6) 0%, rgba(23, 23, 23, 0.7) 100%);
+    box-shadow: inset 0 0 12px 0 rgba(0, 0, 0, 0.2), 0 0 8px 2px rgba(0, 0, 0, 0.3);
+    color: white;
+    border-bottom-left-radius: 1em;
+    border-top-right-radius: 1em; }
+
+  .snowboard.focus,
+  .snowboard.normal {
+    animation: none; }
+
+  .snowboard:nth-child(1) {
+    left: auto;
+    top: 0%; }
+
+  .snowboard:nth-child(2) {
+    left: auto;
+    top: 50%; }
+
+  .snowboard:nth-child(3) {
+    left: auto;
+    top: 100%; }
+
+  .snowboard:nth-child(4) {
+    left: auto;
+    top: 150%; }
+
+  .snowboard:nth-child(5) {
+    left: auto;
+    top: 200%; }
+
+  .snowboard:nth-child(6) {
+    left: auto;
+    top: 250%; } }
