@@ -1,7 +1,7 @@
 # Snowboard Shop 
 A responsive UI concept. 
 
-![http://timpietrusky.github.com/snowboard-shop-concept/img/snowboard-shop-concept-big.jpg](Snowboard Snop Concept)
+![Snowboard Snop Concept](http://timpietrusky.github.com/snowboard-shop-concept/img/snowboard-shop-concept-big.jpg)
 
 ## More to come...
 
